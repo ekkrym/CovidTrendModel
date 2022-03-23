@@ -1,0 +1,9 @@
+# 0 forecasting method during the first months of pandemic
+# 1 constant prediction based on average of 7 last daily trend values
+# 2 constant prediction based on average of 7 last raw daily cases 
+# 3 linear predictor based on LS fit of the last week of trend if the trend is decreasing and linear in the log scale if the trend is decreasing
+# 4 AR(1) with smoothing by Benjamin 
+# 5 polynomial in log scale
+# 6 AR model with 1,...,7 steps ahead forecasting in log scale
+# 7 AR model with 7 steps ahead forecasting in log scale
+# 8 AR(1) model with propagation of 1-step ahead forecast in log scale 

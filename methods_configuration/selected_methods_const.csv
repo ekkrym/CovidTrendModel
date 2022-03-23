@@ -1,0 +1,10 @@
+method,parameters,description,cv
+benchmark,[],reference,0
+mean_const,{"smooth":True},mean constant from trend,0
+mean_const,{"smooth":False},mean constant from raw,0
+linear,"{'W': 7}", linear, 0
+linear_model_fit_predict,"{""p"": 1, 'W': 2}",AR(1) rate,0
+poly_fit," {'p': 1, 'W': 2, 'ns': 3, 'beta': 1, 'daily': True, 'log_': True, 'order0': True}",polynomial,1
+fit_forecasting_ar7_daily,"{'beta':1,'ns': 3, 'order_diff': 0, 'p': 1, 'W': 2}",log daily AR on log rate multi,1
+fit_forecast_7ahead,"{'beta':1, 'ns': 3, 'order_diff': 0, 'p': 1, 'W': 2}",log daily on log rate AR 7,1
+fit_ar_log,"{'beta':0.000001,'p': 1, 'W': 2, 'ns': 3, 'daily': True, 'log_': True, 'order0': True}",AR(1) log daily,1
